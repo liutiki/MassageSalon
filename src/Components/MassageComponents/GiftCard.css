@@ -1,0 +1,21 @@
+.positionGiftCard{
+    display: flex;
+align-items: center;
+    justify-content:space-around;
+    margin-top: 10%;
+flex-direction:row;
+
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.image-card {
+   
+}
+
+.image-gift{
+    width:400px;
+}

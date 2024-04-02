@@ -14,6 +14,11 @@ import AboutSalon from './AboutSalon/AboutSalon';
 import Service from './Service/Service';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Testimonial from './Testimonial/Teatimonial';
+import CardPrice from './CardPrice/CardPrice';
+import Massages from './Components/MassageComponents/Massages';
+import { Link } from "react-router-dom";
+
+
 
 
 
@@ -29,8 +34,10 @@ function App(){
     <Route path="/"element={<Home/>}/>
     <Route path="/aboutSalon" element={<AboutSalon />} />
     <Route path="/service" element={<Service />}/>
+    <Route path="/CardPrice" element={<CardPrice />}/>
     <Route path="/contacts" element={<Contacts />}/>
     <Route path="/testimonial" element={<Testimonial />}/>
+    <Route path="/massages" element={<Massages />} />
     </Routes>
   
     </Router>

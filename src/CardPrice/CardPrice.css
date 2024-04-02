@@ -1,18 +1,17 @@
-.card {
+.card{
     margin: 5%;
     width: 300px;
     border-radius: 0.5rem;
-    background-color: red;
-    box-shadow: 0 0 40px #918e8e;
-    transition: all 5ms;
-    transition: transform 0.3s ease;
+    background-color:transparent;
+ 
+    transition: all 0.8s ease; 
     padding:20px;
-
       }
 
       .card:hover {
-        transform: translateY(-10px);
-        box-shadow: 0 0 40px #a5a3a3;
+        transform: translateY(10px);
+        box-shadow: 0 0 60px #908787;
+        background-color: #ffffff;
       }
   
   .card a {
@@ -34,31 +33,26 @@
   }
     
   .title {
-    color: #111827;
+    color: #BB9CC0;
     font-size: 1.125rem;
     line-height: 1.75rem;
     font-weight: 600;
   }
   
-  .desc {
-    margin-top: 0.5rem;
-    color: #6B7280;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
+ 
   
   .action {
     display: inline-flex;
     margin-top: 1rem;
     color: #ffffff;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    font-weight: 500;
+    font-size:17px;
+    font-weight: 400;
     align-items: center;
-    gap: 0.25rem;
-    background-color: #BB9CC0;
-    padding: 4px 8px;
-    border-radius: 4px;
+    background-color: #bb9cc08f;
+    padding: 4px;
+    border-radius: 10px;
+    border:none;
+
   }
   
   .action span {
@@ -76,3 +70,6 @@
     justify-content: center;
     flex-wrap: wrap;
   }
+
+
+  

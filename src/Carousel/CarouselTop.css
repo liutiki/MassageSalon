@@ -4,3 +4,9 @@
     object-fit: cover; /* Масштабирует изображение так, чтобы оно полностью заполнило контейнер */
   }
   
+
+  .carousel-for-price{
+    width: 100%; 
+    height: 170px; 
+    object-fit: cover; 
+  }

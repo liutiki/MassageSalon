@@ -12,10 +12,15 @@ code {
     monospace;
 }
 
+.scrolled{
+  background-color:#f6f5f59c;
+  height:14vh;
+}
 
-
-
-
+/* Раздел подарочные карты*/
+.giftCard{
+  width:200px;
+}
 
 
 
