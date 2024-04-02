@@ -3,7 +3,6 @@
     width: 300px;
     border-radius: 0.5rem;
     background-color:transparent;
- 
     transition: all 0.8s ease; 
     padding:20px;
       }
@@ -52,7 +51,6 @@
     padding: 4px;
     border-radius: 10px;
     border:none;
-
   }
   
   .action span {

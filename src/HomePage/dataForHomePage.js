@@ -22,14 +22,20 @@ export const dataForHomePage = [
     },
     
     {
-        image:'',
+        image:'SpaFour',
         name: "Название массажа",
         description:"Небольшое описание",
        
     },
     
     {
-        image:'',
+        image:'SpaFive',
+        name: "Название массажа",
+        description:"Небольшое описание",
+        
+    },
+    {
+        image:'SpaSix',
         name: "Название массажа",
         description:"Небольшое описание",
         
