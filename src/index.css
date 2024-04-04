@@ -23,6 +23,9 @@ code {
 }
 
 
+.busket{
+  width:30px;
+}
 
 
 @media (max-width: 500px) {

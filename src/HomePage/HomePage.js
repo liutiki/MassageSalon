@@ -1,15 +1,10 @@
 import { dataForHomePage } from "./dataForHomePage";
-import { useNavigate } from "react-router-dom";
 import './HomePage.css';
+import GiftCards from "./GiftCards";
+import Footer from "../Footer/Footer";
 
 const HomePage = () =>{
-  
-
-    const navigate = useNavigate();
-
-    const handleGiftCardClick = () => {
-        navigate("/massages");
-    };
+   
     
     return(
         <div >
@@ -30,7 +25,7 @@ const HomePage = () =>{
                 return (
                     
                         <div className="service-card">
-                        <img className='home-page-image' src={`./${image}.jpg`} />
+                        <img className='home-page-image' src={`./${image}.jpg`} alt="giftcards" />
                         <p className="title">{name}</p>
                         <p className="description">{description}</p>
                         <button className="action">Узнать подробнее</button>
@@ -38,11 +33,21 @@ const HomePage = () =>{
                   
                 );
             })}
+ </div>
 
+        
+       
+        <div className="horizontal-line"></div>
+<GiftCards />
 
-        </div>
-        <button onClick={handleGiftCardClick}>GiftCard</button>
-        </div>
+<Footer />
+       
+        
+                  
+    </div> 
+               
+        
+        
        
     );
 };

@@ -19,7 +19,6 @@ flex-direction: row;
 justify-content: space-around;
 margin-left: 10%;
 margin-right: 10%;
-
 }
 
 .service-card{
@@ -28,7 +27,7 @@ margin-right: 10%;
     justify-content: center;
     align-items: center;
     margin:13px;
-margin-top: 5%;
+    margin-top: 5%;
 }
 
 .text-position{
@@ -66,4 +65,33 @@ margin-top: 5%;
 
   .description{
     color:#A9A9A9;
+  }
+
+  .horizontal-line {
+    margin-top: 3%;
+    width: 100vw;
+    height: 3px;
+    background-color: #E8E2E2;
+  }
+  
+.gift-position{
+    flex-wrap: wrap;
+    display:flex;
+flex-direction: row;
+justify-content: space-around;
+margin-left: 10%;
+margin-right: 10%;
+}
+
+
+
+ .home-page-card{
+    width:220px;
+     }
+ 
+
+  
+
+  .gift-container{
+    background-color: #f3f6c8ad;
   }

@@ -4,6 +4,7 @@ const dataForGiftCard =[
         name:'GiftCard',
         price:2000,
         img:'LavandaOne',
+       
         },
 
         {
@@ -11,6 +12,7 @@ const dataForGiftCard =[
             name:'GiftCard',
             price:5000,
             img:'LavandaTwo',
+          
             },
 
             {
@@ -18,6 +20,7 @@ const dataForGiftCard =[
                 name:'GiftCard',
                 price:10000,
                 img:'LavandaThree',
+               
                 },
 
                 {
