@@ -8,9 +8,12 @@ const HomePage = () =>{
     
     return(
         <div >
+            <div className="welcomePosition">
+            <h2 className="Welcome">Добро пожаловать в салон массажа </h2>
+            <h1 className="Welcome">"Оазис"</h1>
+            </div>
             <div className="text-position">
-            <h1>Добро пожаловать в салон массажа "Оазис"</h1>
-            <p>Добро пожаловать в массажный салон Oasis. Если вы хотите позаботиться о своем теле, расслабить мышцы и 
+            <p>  Если вы хотите позаботиться о своем теле, расслабить мышцы и 
                  побаловать себя, мы - идеальное место для проведения массажа в Хьюстоне. С момента нашего основания 
                  в 2008 году мы практикуем несколько видов массажа, подкрепленных нашими обширными знаниями в области 
                  науки и искусства традиционного массажа.
@@ -29,6 +32,7 @@ const HomePage = () =>{
                         <p className="title">{name}</p>
                         <p className="description">{description}</p>
                         <button className="action">Узнать подробнее</button>
+                        <button className="callToAction">Записаться</button>
                         </div>
                   
                 );

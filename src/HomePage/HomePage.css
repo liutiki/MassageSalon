@@ -1,5 +1,45 @@
+.name-top{
+  display:flex;
+  justify-content: center;
+}
+.Oasis{
+  font-family: "Philosopher", sans-serif;
+  font-weight: 300;
+  margin-top: 5%;
+}
+
+.welcomePosition{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+
+.Welcome{
+  font-family: "Philosopher", sans-serif;
+  font-weight: 300;
+  margin-right: 17%;
+  margin-left: 17%;
+  margin-top: 2%;
+  line-height: 29px;
+  color:#A9A9A9;
+}
+
+.text-position{
+ display:flex;
+ align-items: center;
+ margin-right: 17%;
+ margin-left: 17%;
+ margin-top: 2%;
+ line-height: 29px;
+ color:#A9A9A9;
+}
+
+
+
+
+
 .home-page-image{
-     
     width: 400px;
     border-radius: 80px;
     filter:drop-shadow(0 0 20px);
@@ -30,18 +70,7 @@ margin-right: 10%;
     margin-top: 5%;
 }
 
-.text-position{
-    font-family: "Work Sans", sans-serif;
-    font-weight: 300;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 17%;
-    margin-left: 17%;
-    margin-top: 2%;
-    line-height: 29px;
-    color:#A9A9A9;
-}
+
 .title {
     margin-top: 20px;
     color: #BFACE2;
@@ -63,6 +92,19 @@ margin-right: 10%;
     border:none;
   }
 
+  .callToAction{
+    display: inline-flex;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size:22px;
+    font-weight: 400;
+    align-items: center;
+    background-color: #C6EBC5;
+    padding: 4px;
+    border-radius: 10px;
+    border:none;
+  }
+
   .description{
     color:#A9A9A9;
   }
@@ -74,24 +116,39 @@ margin-right: 10%;
     background-color: #E8E2E2;
   }
   
-.gift-position{
+.gift{
     flex-wrap: wrap;
     display:flex;
 flex-direction: row;
-justify-content: space-around;
-margin-left: 10%;
-margin-right: 10%;
+justify-content: center;
 }
 
+.gift-container{
+  background-color: #a9a9a963;
+}
 
-
- .home-page-card{
-    width:220px;
+.giftCard{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin:5%;
+}
+ .lavanda{
+  margin-top: 15%;
+    width:320px;
+    border-radius: 150px;
+    border:23px solid rgba(163, 162, 162, 0.24);
      }
- 
-
   
+     .lavanda:hover{
+      margin-top: 15%;
+        width:330px;
+        border-radius: 210px;
+        border:22px solid rgba(204, 200, 200, 0.123);
+         }
 
-  .gift-container{
-    background-color: #f3f6c8ad;
-  }
+.button-gift{
+  border:none;
+  padding:10px;
+  color:  grey;
+}

@@ -13,21 +13,24 @@ const GiftCards = () =>{
 
     return(
 
+    
+
         <div className="gift-container">
-        <div className="gift-position">
+            <div className="name-top">
+                <h2 className="Oasis"> Оазис Подарочные карты</h2>
+            </div>
+        <div className="gift">
                 {dataForGiftHome.map((item) => {
                 const { image, name, description } = item;
                 return (
                     
-                   <div>
-
-                        <div class="card">
-                        <img className='home-page-card' src={`./${image}.png`} alt="massagephoto" />
-                        </div>
+                   <div className="giftCard">
+                        <img className='lavanda' src={`./${image}.png`} alt="massagephoto" />
                         <p className="title">{name}</p>
                         <p className="description">{description}</p>
-                        <button onClick={handleGiftCardClick}>GiftCard</button>
+                        <button onClick={handleGiftCardClick} className="button-gift">Выбрать</button>
                     </div>
+                 
                                     );
                     })}
                     </div>
