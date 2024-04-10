@@ -2,6 +2,7 @@ import './CardPrice.css';
 import React from 'react';
 import { dataCardPrice } from './dataCardPrice';
 import CarouselTwo from './CarouselTwo';
+import Footer from '../Footer/Footer';
 
 function CardPrice(){
     return(
@@ -27,6 +28,7 @@ function CardPrice(){
           
          
          </div>
+         <Footer />
      </div>
 
     )
