@@ -1,21 +1,23 @@
 .positionGiftCard{
     display: flex;
 align-items: center;
-    justify-content:space-around;
+justify-content: center;
     margin-top: 10%;
 flex-direction:row;
-
 }
 
 .info{
     display: flex;
     flex-direction: column;
-}
-
-.image-card {
    
 }
 
-.image-gift{
-    width:400px;
+.image-card {
+    margin-right: 15%;
 }
+
+.image-gift{
+    width:300px;
+    border:1px solid grey;
+    padding:30px;
+ }

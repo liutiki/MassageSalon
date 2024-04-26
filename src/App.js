@@ -17,6 +17,7 @@ import Testimonial from './Testimonial/Teatimonial';
 import CardPrice from './CardPrice/CardPrice';
 import Massages from './Components/MassageComponents/Massages';
 import { Link } from "react-router-dom";
+import Cart from './Components/Cart/Cart';
 
 
 
@@ -38,6 +39,7 @@ function App(){
     <Route path="/contacts" element={<Contacts />}/>
     <Route path="/testimonial" element={<Testimonial />}/>
     <Route path="/massages" element={<Massages />} />
+    <Route path="/cart" element={<Cart />} />
     </Routes>
   
     </Router>

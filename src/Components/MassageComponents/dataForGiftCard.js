@@ -6,7 +6,7 @@ const dataForGiftCard =[
         img:'LavandaOne',
        
         },
-
+/*
         {
             id:2,
             name:'GiftCard',
@@ -29,7 +29,7 @@ const dataForGiftCard =[
                     price:15000,
                     img:'LavandaOne',
                     },
-
+*/
 ]
 
 

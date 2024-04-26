@@ -2,9 +2,21 @@ import { dataForHomePage } from "./dataForHomePage";
 import './HomePage.css';
 import GiftCards from "./GiftCards";
 import Footer from "../Footer/Footer";
+import React, { useEffect } from 'react';
+import { gsap } from 'gsap';
 
-const HomePage = () =>{
-   
+
+    const HomePage = () => {
+        useEffect(() => {
+            setTimeout(() => {
+                animateButton();
+            },1000);
+        }, []);
+        
+        
+        const animateButton = () => {
+            gsap.to('.welcomePosition', { y:0, duration: 3, opacity: 1 });
+        }
     
     return(
         <div >
