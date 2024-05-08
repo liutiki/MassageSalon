@@ -1,3 +1,5 @@
+import './Cart.css';
+
 const ChangeQuantity = ({quantity, setQuantity}) =>{
 
     const addQuantity =() =>{
@@ -13,9 +15,9 @@ const ChangeQuantity = ({quantity, setQuantity}) =>{
 
     return(
         <div>
-            <button onClick={addQuantity}>+</button>
+            <button className="button-plus"onClick={addQuantity}>+</button>
  <span>{quantity}</span>
- <button onClick={removeQuantity}>-</button>
+ <button className="button-minus"onClick={removeQuantity}>-</button>
 
         </div>
     )

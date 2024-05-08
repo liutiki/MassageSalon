@@ -1,0 +1,25 @@
+.button-plus{
+    background-color: #F6F5F2;
+    border:none;
+    padding:10px;
+    width:40px;
+    margin-right:15px;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.button-plus:hover{
+    background-color: #dbdad7;
+}
+
+.button-minus{
+    background-color: #F6F5F2;
+    border:none;
+    padding:10px;
+    width:40px;
+    margin-left:15px;   
+    font-family: "Comfortaa", sans-serif;
+}
+
+.button-minus:hover{
+    background-color: #dbdad7;
+}

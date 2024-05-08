@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import './Navbar.css';
 
 
 
@@ -24,7 +25,7 @@ function MyNav() {
   }, []);
 
   return (
-    <Navbar expand="lg" className={scrolled ? 'mynav scrolled fixed-top' : 'mynav fixed-top'}>
+    <Navbar expand="lg" className={scrolled ? 'mynav scrolled fixed-top my-navbar' : 'mynav fixed-top my-navbar'}>
       <Container>
         <Navbar.Brand href="/">Oasis salon</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

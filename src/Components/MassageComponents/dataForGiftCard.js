@@ -1,8 +1,9 @@
 const dataForGiftCard =[
     {
         id:1,
-        name:'GiftCard',
-        price:2000,
+        name:'Сертификат на любой массаж 40 минут',
+        price:2500,
+        curency: 'рублей',
         img:'LavandaOne',
        
         },

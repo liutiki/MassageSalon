@@ -1,0 +1,79 @@
+.space{
+    margin-bottom: 20%;
+}
+
+.salonPics{
+    width:40%;
+    border-radius: 7px;
+    float: left; /* Выравниваем фото слева */
+    margin-right: 20px; /* Отступ между фото и текстом */
+    }
+
+.pictureText{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   justify-content: space-around;
+}
+
+.picture-position{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+     }
+
+
+.aboutText{
+    font-family: "Philosopher", sans-serif;
+    line-height: 40px; 
+    font-size: 18px;
+    color:darkgrey
+}
+
+.button-pointer{
+    border:none;
+    background-color: transparent;
+    color:#472183;
+}
+
+.story{
+    font-family: "Philosopher", sans-serif;
+    line-height: 40px; 
+    font-size: 40px;
+    color:darkgrey
+}
+
+.dIcon{
+    width:80px;
+}
+
+.iconPosition{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.buttons{
+   display:flex;
+   flex-direction: row;
+   }
+
+.OneButton{
+border:none;
+background-color: transparent;
+} 
+
+.TwoButton{
+    margin-left: 30%;
+    border:none;
+    background-color: transparent;
+    } 
+
+    .text {
+        flex: 1; /* Чтобы текст занимал всю доступную ширину */
+    }

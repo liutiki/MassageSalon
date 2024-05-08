@@ -16,8 +16,8 @@ function CarouselTop(){
         
         /> 
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Магия массажа</h3>
+          <p>Путешествие от усталости к расслаблению</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={3000}>
@@ -28,8 +28,8 @@ function CarouselTop(){
         
         /> 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Массаж – язык без слов</h3>
+          <p>Здоровые тело, разум и душа</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={3000}>
@@ -39,9 +39,9 @@ function CarouselTop(){
           alt="Third slide" 
          /> 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Исцеляющее прикосновение</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          Говорят, что вы не можете купить счастье, но вы можете купить массаж, а это то же самое
           </p>
         </Carousel.Caption>
       </Carousel.Item>

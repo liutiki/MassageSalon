@@ -1,5 +1,5 @@
 .footer{
-    background-color: #706381;
+    background-color: #8f7aaa4a;
 }
 
 .footer-row{
@@ -13,7 +13,6 @@
     list-style: none;
     color:rgb(255, 255, 255);
     margin-top: 50px;
-    margin-bottom: 150px;
     font-family: "Philosopher", sans-serif;
     font-size: 18px;
     display:flex;

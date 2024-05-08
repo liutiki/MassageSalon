@@ -2,10 +2,11 @@ import dataForGiftCard from "../MassageComponents/dataForGiftCard";
 import { useDispatch } from "react-redux";
 import {removeItemFromCart} from "../../Redux/cartSlice";
 
-const CartItem = ({cartItem}) => { 
+const CartItem = ({cartItem }) => { 
 
     const dispatch =useDispatch();
 
+    
 
     const dishes = dataForGiftCard.find(item =>item.id === cartItem.cardId)
     return(

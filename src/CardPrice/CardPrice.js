@@ -15,7 +15,7 @@ function CardPrice(){
   const{image, name, description, price }=item;
   return(
         <div className="card">
-<img src={image} className="image"/>
+<img src={image} className="image" alt="giftCard"/>
 <p className="title">{name}</p>
 <p>{description}</p>
 <p>{price}</p>
