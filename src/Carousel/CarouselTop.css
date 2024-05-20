@@ -10,3 +10,7 @@
     height: 170px; 
     object-fit: cover; 
   }
+
+  .magic{
+    font-family: "Philosopher", sans-serif;
+  }

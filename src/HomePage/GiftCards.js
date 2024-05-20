@@ -1,6 +1,7 @@
 import './HomePage.css';
 import { dataForGiftHome } from "./dataForGiftHome";
 import { useNavigate } from "react-router-dom";
+import image from '../decoration/spiral.png';
 
 const GiftCards = () =>{
 
@@ -17,7 +18,9 @@ const GiftCards = () =>{
 
         <div className="gift-container">
             <div className="name-top">
-                <h2 className="Oasis"> Оазис Подарочные карты</h2>
+            <img src={image} width="70px" alt="icon"/>
+                <h3 className="Oasis"> Подарочные карты</h3>
+             
             </div>
         <div className="gift">
                 {dataForGiftHome.map((item) => {

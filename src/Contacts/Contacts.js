@@ -3,7 +3,8 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import styled from 'styled-components';
 import Footer from "../Footer/Footer";
-import MapComponent from "../GoogleMap/MapComponent";
+import CountdownTimer from "../Countdown/CountdownTimer";
+
 
 
 
@@ -175,6 +176,8 @@ function Contacts(){
 
 <div>
 <Footer />
+
+<CountdownTimer />
 </div>
 
     </div>

@@ -1,0 +1,95 @@
+
+.carouselTwo{
+    margin-top: 5%;
+}
+
+.spa-btn{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    }
+
+    .btn-top{
+        background-color: transparent;
+        font-family: "Philosopher", sans-serif;
+        margin:5px;
+        border:none;
+        font-size: 25px;
+ }
+
+ .btn-top:hover{
+    color:grey;
+ }
+
+ .change{
+    background-color: transparent;
+    font-family: "Philosopher", sans-serif;
+    margin:5px;
+    border:none;
+    font-size: 25px;
+ }
+
+ .change:hover{
+    color:grey;
+ }
+
+ .Spa-card{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .Spa-container{
+    flex-basis: 16%;
+    border:1px solid grey;
+    margin:20px;
+    background-color: rgba(240, 248, 255, 0.658);
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+ }
+
+ .products{
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: center; 
+ }
+
+ .product-info{
+    text-align: center;
+    
+ }
+
+ ul{
+list-style: none;
+ }
+
+
+.line{
+    font-family: "Philosopher", sans-serif;
+}
+
+.SpaName{
+    font-size: 21px;
+    font-family: "Philosopher", sans-serif;
+}
+
+.SpaPrice{
+    font-size: 25px;
+    font-family: "Philosopher", sans-serif; 
+}
+
+.btn-next{
+    background-color: transparent;
+    border:none;
+}
+
+.btn-next-position{
+    display:flex;
+    justify-content: center;
+}
+
+.next{
+    width:40px;
+}

@@ -35,7 +35,7 @@ function MyNav() {
             <Nav.Link href="/AboutSalon">О мастере</Nav.Link>
             <Nav.Link href="/Service">Услуги</Nav.Link>
             <Nav.Link href="/CardPrice">Цены</Nav.Link>
-            <Nav.Link href="/Testimonial">Отзывы</Nav.Link>
+            <Nav.Link href="/FirstPage">SPA программы</Nav.Link>
             <Nav.Link href="/Contacts">Контакты</Nav.Link>
             </Nav>
         </Navbar.Collapse>

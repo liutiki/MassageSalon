@@ -18,7 +18,7 @@ function CarouselTwo(){
         
         /> 
         <Carousel.Caption>
-          <h3>First slide label</h3>
+          <h3 className="magic">Магия массажа</h3>
           </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={3000}>
@@ -29,7 +29,7 @@ function CarouselTwo(){
         
         /> 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
+          <h3>Здоровые тело, разум и душа</h3>
          </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={3000}>
@@ -39,7 +39,7 @@ function CarouselTwo(){
           alt="Third slide" 
          /> 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Исцеляющее прикосновение</h3>
           </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

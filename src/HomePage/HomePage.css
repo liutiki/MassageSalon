@@ -1,11 +1,16 @@
 .name-top{
   display:flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .Oasis{
+  font-size:40px;
   font-family: "Philosopher", sans-serif;
   font-weight: 300;
   margin-top: 5%;
+  color: #BFACE2;
+
 }
 
 .welcomePosition{
@@ -17,6 +22,7 @@
 }
 
 .Welcome{
+  font-size: 25px;
   font-family: "Philosopher", sans-serif;
   font-weight: 300;
   margin-right: 17%;
@@ -26,11 +32,28 @@
   color:#A9A9A9;
 }
 
+.WelcomeTwo{
+  font-size:50px;
+  font-family: "Philosopher", sans-serif;
+  font-weight: 300;
+  margin-right: 17%;
+  margin-left: 17%;
+  margin-top: 2%;
+  line-height: 29px;
+  color:#A9A9A9;
+}
+
+.WelcomeIcon{
+  width:70px;
+}
+
 .text-position{
+  font-family: "Philosopher", sans-serif;
+  font-size:18px;
  display:flex;
  align-items: center;
- margin-right: 17%;
- margin-left: 17%;
+ margin-right: 12%;
+ margin-left: 12%;
  margin-top: 2%;
  line-height: 29px;
  color:#A9A9A9;
@@ -75,39 +98,40 @@ margin-right: 10%;
 .title {
     margin-top: 20px;
     color: #BFACE2;
-    font-size:12px;
-    line-height: 1.75rem;
+    font-size:22px;
     font-weight: 600;
+    font-family: "Philosopher", sans-serif;
   }
 
   .action {
-    display: inline-flex;
+    font-family: "Roboto", sans-serif;
     margin-top: 10px;
     color: #ffffff;
     font-size:22px;
-    font-weight: 400;
-    align-items: center;
     background-color: #bb9cc08f;
     padding: 4px;
     border-radius: 10px;
     border:none;
-  }
+    width:180px;
+     }
 
   .callToAction{
-    display: inline-flex;
+    font-family: "Roboto", sans-serif;
     margin-top: 10px;
     color: #ffffff;
-    font-size:22px;
-    font-weight: 400;
-    align-items: center;
     background-color: #C6EBC5;
     padding: 4px;
     border-radius: 10px;
     border:none;
+    width:180px;
+    font-size:19px;
   }
 
   .description{
     color:#A9A9A9;
+    max-width:400px;
+    align-items: center;
+    font-family: "Philosopher", sans-serif;
   }
 
   .horizontal-line {
@@ -142,14 +166,65 @@ justify-content: center;
      }
   
      .lavanda:hover{
-      margin-top: 15%;
         width:330px;
         border-radius: 210px;
         border:22px solid rgba(204, 200, 200, 0.123);
          }
 
 .button-gift{
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
+  color: #ffffff;
+  font-size:19px;
+  background-color: #bb9cc08f;
+  padding: 4px;
+  border-radius: 10px;
   border:none;
-  padding:10px;
-  color:  grey;
+  width:130px;
+}
+
+
+@media all and (max-width: 500px) {
+
+
+.sevice-position{
+  flex-direction: column;
+}
+
+.home-page-image{
+  width:250px;
+  border-radius: 30px;
+ }
+
+ .text-position{
+  font-family: "Philosopher", sans-serif;
+  font-size:14px;
+ display:flex;
+ align-items: center;
+ line-height: 19px;
+
+}
+
+.Welcome{
+  margin-right: 5%;
+  margin-left: 5%;
+  font-size:17px;
+}
+
+.WelcomeTwo{
+  font-size:25px;
+}
+
+.lavanda{
+    width:250px;
+      }
+      .Oasis{
+        font-size:23px;
+        font-weight: 800;
+           }
+
+           .WelcomeIcon{
+            width:40px;
+          }
+
 }

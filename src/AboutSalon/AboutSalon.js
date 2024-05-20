@@ -41,17 +41,23 @@ function AboutSalon(){
   
      
         <div className="pictureText">
-                <div className='picture-position'>         
+                <div className='picture-position'>   
+                   <div className="photoSalon">      
                     <img className="salonPics" src={`./${image}.jpg`} alt="giftcards" />
+                    </div>
+                    <div className="buttons">
+                        <button className="OneButton" onClick={previousPicture}><img src={backIcon}  alt="back"/></button>
+                        <button className="TwoButton" onClick={nextPicture}><img src={nextIcon}  alt="next"/></button>
+                    </div>
+                          
+                </div>
+
                     <div className='text'>
                         <Text />
                     </div>
-                    <div className="buttons">
-                        <button className="OneButton" onClick={previousPicture}><img src={backIcon} width="50px" alt="back"/></button>
-                        <button className="TwoButton" onClick={nextPicture}><img src={nextIcon} width="50px" alt="next"/></button>
-                    </div>
-                </div>
+       
             </div>
+            <Footer />
         </div>
     );
 }

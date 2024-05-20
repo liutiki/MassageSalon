@@ -1,12 +1,11 @@
 .footer{
-    background-color: #8f7aaa4a;
+    background-color: #4d3c77ac;
 }
 
-.footer-row{
+.footerTwo{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-
  }
 
 .relax-massage{
@@ -29,4 +28,47 @@
 .copyright{
     display:flex;
     justify-content: center;
+    font-size:15px;
+}
+
+.Vensil{
+    width:70px;
+}
+
+.insta{
+    width:40px;
+    margin-top: 5px;;
+}
+
+@media all and (max-width: 500px) {
+
+  
+    .footerTwo{
+        display:flex;
+        flex-direction: column; 
+     }
+
+     .relax-massage{
+        margin-top: 20px;
+        font-size: 15px;
+        }
+    .service{
+           color:#222831;
+           font-family: "Playfair Display", serif;
+           font-size: 19px;     
+    } 
+
+    .Vensil{
+        width:30px;
+    }
+
+    
+    .insta{
+        width:30px;
+    }
+
+    .copyright{
+        font-size:11px;
+    }
+    
 }

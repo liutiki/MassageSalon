@@ -16,8 +16,8 @@ function CarouselTop(){
         
         /> 
         <Carousel.Caption>
-          <h3>Магия массажа</h3>
-          <p>Путешествие от усталости к расслаблению</p>
+          <h3 className="magic">Магия массажа</h3>
+          <p className="magic">Путешествие от усталости к расслаблению</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={3000}>
@@ -28,8 +28,8 @@ function CarouselTop(){
         
         /> 
         <Carousel.Caption>
-          <h3>Массаж – язык без слов</h3>
-          <p>Здоровые тело, разум и душа</p>
+          <h3 className="magic">Массаж – язык без слов</h3>
+          <p className="magic">Здоровые тело, разум и душа</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={3000}>
@@ -39,8 +39,8 @@ function CarouselTop(){
           alt="Third slide" 
          /> 
         <Carousel.Caption>
-          <h3>Исцеляющее прикосновение</h3>
-          <p>
+          <h3 className="magic">Исцеляющее прикосновение</h3>
+          <p className="magic">
           Говорят, что вы не можете купить счастье, но вы можете купить массаж, а это то же самое
           </p>
         </Carousel.Caption>
