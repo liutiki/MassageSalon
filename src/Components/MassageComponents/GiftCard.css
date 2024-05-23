@@ -18,10 +18,9 @@ flex-direction:row;
 }
 
 .price{
-  margin:5px;
   font-size: 18px;
-  font-weight: 700;
-  font-family: "Comfortaa", sans-serif;
+  font-weight: 200;
+  font-family: "Philosopher", sans-serif;
   color:#7E97A6;
 }
 
@@ -74,5 +73,76 @@ flex-direction:row;
       
 
       @media all and (max-width: 500px) {
-
+        .positionGiftCard{
+              margin-top: 20%;
+              flex-direction:column;
+      }
+      
+      .info{
+          display: flex;
+          flex-direction: column;
+        }
+      
+      .price-position{
+          display: flex;
+          flex-direction: row;
+          margin:10px;
+      }
+      
+      .price{
+        font-size: 18px;
+        font-weight: 200;
+        font-family: "Philosopher", sans-serif;
+        color:#7E97A6;
+      }
+      
+      .name{
+          margin-top: 10px;
+          font-family: "Comfortaa", sans-serif;
+          color:#7E97A6;
+          font-size:14px;
+          width:300px;
+      }
+      
+      .image-card {
+          margin-right: 12%;
+      }
+      
+      .image-gift{
+          width:250px;
+          }
+      
+       .busket{
+          border:none;
+          padding:10px;
+          width:200px;
+          height:40px;
+          margin-top:15px;
+          margin-bottom: 10px;
+          border-radius: 11px;
+          font-size: 14px;
+          font-family: "Comfortaa", sans-serif;
+       }
+      
+       .busket:hover{
+          background-color: #96E9C6;
+         }
+      
+         .gorizontal-line{
+              width: 50vw;
+              height: 1px;
+              background-color: black;
+            }
+         
+      
+            .footer{
+        margin-top:170px;
+      
+            }
+      
+      
+            .added {
+              background-color: green;
+              color: white;
+            }
       }

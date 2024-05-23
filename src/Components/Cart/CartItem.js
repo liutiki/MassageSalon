@@ -1,6 +1,8 @@
 import dataForGiftCard from "../MassageComponents/dataForGiftCard";
 import { useDispatch } from "react-redux";
 import {removeItemFromCart} from "../../Redux/cartSlice";
+import crossmark from './busket/crossmark.png';
+import './Cart.css';
 
 const CartItem = ({cartItem }) => { 
 
@@ -11,13 +13,18 @@ const CartItem = ({cartItem }) => {
     const dishes = dataForGiftCard.find(item =>item.id === cartItem.cardId)
     return(
         <div>
-           <p>{cartItem.quantity}</p>
-           <p>{dishes.name}</p>
-           <p> Цена : {dishes.price * cartItem.quantity}</p>
+           <div className="cardNamePosition">
+           <p className="cardName">{cartItem.quantity}.</p>
+           <p className="cardName">{dishes.name}</p>
+           <p className="delete" onClick ={() =>dispatch (removeItemFromCart ({cartItemId : cartItem.id}))}>
+           Удалить <img src={crossmark} width="23px" alt="crossmark"/></p>
+           </div>
+           <div className="cardNamePosition">
+           <p className="price"> Цена : {dishes.price * cartItem.quantity} рублей</p>
          
-           <span onClick ={() =>dispatch (removeItemFromCart ({cartItemId : cartItem.id}))}>
-           <img className="busket"src="https://img.icons8.com/?size=50&id=11201&format=png" alt="busket"/></span>
-
+         
+          </div>
+           
         </div>
     )
     

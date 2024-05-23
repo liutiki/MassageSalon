@@ -6,11 +6,13 @@ import next from './IMGProgram/next.png';
 
 const Image =styled.img`
 width:400px;
+height:36vh;
 border-radius:20px;
 
 
 @media (max-width: 500px) {
-    width:150px;
+    width:270px;
+    height:20vh;
   }`;
 
 

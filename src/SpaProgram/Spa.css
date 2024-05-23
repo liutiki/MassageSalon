@@ -1,45 +1,45 @@
 
-.carouselTwo{
+ 
+ .spa-btn{
     margin-top: 5%;
-}
-
-.spa-btn{
-    margin-top: 5%;
-    margin-bottom: 5%;
+ 
     display:flex;
     flex-direction:row;
     justify-content:center;
+    flex-wrap: wrap;
     }
-
+ 
     .btn-top{
+        color:#B4B4B8;
         background-color: transparent;
-        font-family: "Philosopher", sans-serif;
+        font-family: "Alice", serif;
         margin:5px;
         border:none;
         font-size: 25px;
  }
-
+ 
  .btn-top:hover{
     color:grey;
  }
-
+ 
  .change{
+    color:#B4B4B8;
     background-color: transparent;
-    font-family: "Philosopher", sans-serif;
+    font-family: "Alice", serif;
     margin:5px;
     border:none;
     font-size: 25px;
  }
-
+ 
  .change:hover{
     color:grey;
  }
-
+ 
  .Spa-card{
     display: flex;
     flex-wrap: wrap;
  }
-
+ 
  .Spa-container{
     flex-basis: 16%;
     border:1px solid grey;
@@ -48,48 +48,94 @@
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
- }
-
+  }
+ 
  .products{
     display: flex;
     flex-wrap: wrap;
-  justify-content: center; 
+  justify-content: center;
+  opacity: 0; 
  }
-
+ 
  .product-info{
-    text-align: center;
-    
+    text-align: center;  
  }
-
- ul{
-list-style: none;
- }
-
-
-.line{
+ 
+ 
+ .line{
     font-family: "Philosopher", sans-serif;
-}
-
-.SpaName{
+    font-size: 16px;
+    text-align: start;
+    margin-left: 15px;
+    height: 32vh;
+    color:#31363F;
+    }
+ 
+ 
+ .SpaName{
     font-size: 21px;
-    font-family: "Philosopher", sans-serif;
-}
-
-.SpaPrice{
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    height:7vh;
+    color:#7469B6;
+ }
+ 
+ .SpaPrice{
     font-size: 25px;
-    font-family: "Philosopher", sans-serif; 
-}
-
-.btn-next{
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#7469B6; 
+ }
+ 
+ .btn-next{
     background-color: transparent;
     border:none;
-}
-
-.btn-next-position{
+ }
+ 
+ .btn-next-position{
     display:flex;
     justify-content: center;
-}
-
-.next{
+ }
+ 
+ .next{
     width:40px;
-}
+ }
+
+
+ 
+ 
+ @media all and (max-width:500px){
+   
+    .next{
+       width:20px;
+    }
+    
+    .SpaName{
+       font-size: 15px;
+    }
+ 
+    .SpaPrice{
+       font-size: 15px;
+       }
+ 
+    .Spa-container{
+             margin:10px;
+                 }
+ 
+        .btn-top{
+                 font-size: 15px;
+   }
+     
+   .change{
+         font-size: 15px;
+   }
+ 
+   .line{
+    font-family: "Philosopher", sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+ height:21vh;
+ }
+ }

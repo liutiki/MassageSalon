@@ -30,7 +30,6 @@ const GiftCards = () =>{
                    <div className="giftCard">
                         <img className='lavanda' src={`./${image}.png`} alt="massagephoto" />
                         <p className="title">{name}</p>
-                        <p className="description">{description}</p>
                         <button onClick={handleGiftCardClick} className="button-gift">Выбрать</button>
                     </div>
                  

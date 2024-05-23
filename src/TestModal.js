@@ -2,6 +2,28 @@ import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Cart from './Components/Cart/Cart';
+import styled from 'styled-components';
+
+const ButtonBusket=styled.button`
+
+background-color:#8576FF;
+border:none;
+padding:10px;
+width:200px;
+height:40px;
+margin-top:15px;
+margin-bottom: 10px;
+border-radius: 11px;
+font-size: 14px;
+font-family: "Comfortaa", sans-serif;
+`
+;
+
+const BusketName=styled.h1`
+font-size: 19px;
+font-family: "Comfortaa", sans-serif;
+`
+;
 
 
 
@@ -19,12 +41,12 @@ function TestModal() {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
+      <ButtonBusket variant="primary" onClick={handleShow}>
         Перейти в корзину
-      </Button>
+      </ButtonBusket>
          <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Корзина</Modal.Title>
+        <BusketName>Корзина</BusketName>
         </Modal.Header>
         <Modal.Body>
             <Cart />
@@ -34,10 +56,7 @@ function TestModal() {
           <Button variant="secondary" onClick={handleClose}>
             Закрыть
           </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Сохранить изменения
-          </Button>
-        </Modal.Footer>
+          </Modal.Footer>
       </Modal>
     </>
   );

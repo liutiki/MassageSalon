@@ -5,6 +5,7 @@ import { addItemToCart } from '../../Redux/cartSlice';
 import { useDispatch } from 'react-redux';
 import TestModal from '../../TestModal';
 import Swal from 'sweetalert2';
+
     
 
 
@@ -33,6 +34,7 @@ const addToCart = () => {
 
     return(
     <div className="positionGiftCard">
+      
     <div className="image-card">
     <img className="image-gift" src={`./${card.img}.jpg`} alt="gift"/>
     </div>

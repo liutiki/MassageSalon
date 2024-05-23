@@ -130,8 +130,10 @@ margin-right: 10%;
   .description{
     color:#A9A9A9;
     max-width:400px;
+    height:14vh;
     align-items: center;
     font-family: "Philosopher", sans-serif;
+
   }
 
   .horizontal-line {

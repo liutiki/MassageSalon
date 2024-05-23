@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { dataSpaProgram } from "./dataSpaProgram";
 import Slides from "./Slides";
 import './Spa.css';
@@ -6,6 +6,8 @@ import Buttons from "./Buttons";
 import CarouselTwo from "../CardPrice/CarouselTwo";
 import ButtonAll from "./ButtonAll";
 import Footer from "../Footer/Footer";
+import gsap from 'gsap';
+import CountdownTimer from "../Countdown/CountdownTimer";
 
 
 const FirstPage = () => {
@@ -21,11 +23,42 @@ const FirstPage = () => {
         const newProject=dataSpaProgram.filter(element=>element.searchTerm===searchTerm)
         setStuff(newProject);
     }
+
+    useEffect(() => {
+        gsap.to('.products,.Spa-container', {
+          duration: 3,
+         opacity:1,
+          delay: 0.5,
+          y:30,
+          stagger:{
+           amount: 0.6,
+          },
+         
+        });
+      }, []);
+
+
+      
+  useEffect(() => {
+    setTimeout(() => {
+      gsap.to('.timer', {
+        duration: 1,
+        opacity: 1,
+        delay: 0.6,
+      });
+    }, 3000); 
+  }, []);
+
+
 return(<div className="background">
 
 <div className="carouselTwo">
     <CarouselTwo />
 </div>
+
+
+<CountdownTimer targetDate="2024-05-28T23:59:59" />
+
 
 <div className="spa-btn">
   <ButtonAll backToAll={backAll}/>
@@ -42,14 +75,15 @@ return <div className="Spa-container" key={id}>
 <Slides image={image}/> 
 <div className="product-info">
 <p className="SpaName">{name}</p>
-<ul className="line">
-<li>{description}</li>
-<li>{descriptiontwo}</li>
-<li>{descriptionthree}</li>
-<li>{descriptionfour}</li>
-</ul>
+<div className="line">
+<p>{description}</p>
+<p>{descriptiontwo}</p>
+<p>{descriptionthree}</p>
+<p>{descriptionfour}</p>
+</div>
+<div>
 <p className="SpaPrice">{price}</p>
-
+</div>
 </div>
 </div>
 

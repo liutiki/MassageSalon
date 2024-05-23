@@ -3,7 +3,7 @@ export const dataForGiftHome = [
     {
         id:1,
         image:'GiftcardOne',
-        name: "Название массажа",
+        name: "Подарочная карта на любой массаж 40 минут",
             
         
     },
