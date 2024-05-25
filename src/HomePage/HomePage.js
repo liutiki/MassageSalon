@@ -124,7 +124,7 @@ height:40px;
                         <img className='home-page-image' src={`./${image}.jpg`} alt="giftcards" />
                         <p className="title">{name}</p>
                         <p className="description">{description}</p>
-                        <button className="action">Узнать подробнее</button>
+                        <button className="actionknew">Узнать подробнее</button>
                         <button className="callToAction">Записаться</button>
                         </div>
                   

@@ -3,7 +3,7 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import styled from 'styled-components';
 import Footer from "../Footer/Footer";
-import CountdownTimer from "../Countdown/CountdownTimer";
+
 
 
 
@@ -108,20 +108,14 @@ color:#222831;
 ;
 
 const Add=styled.p`
+text-align:center;
 font-size:18px;
 font-family: "Philosopher", sans-serif;
 color:#B4B4B8;
 `
 ;
 
-const MapPosition=styled.div`
-display:flex;
-justify-content:center;
-height:30%;
-max-width:100%;
-`
 
-;
 
 function Contacts(){
 
@@ -172,12 +166,10 @@ function Contacts(){
     </ContactPosition>
 
    
-    <iframe src="https://www.google.com/maps/d/embed?mid=12y8VapREvkAG6cluELOUJeEmz6s" width="100%" height="480"></iframe>
+   
 
 <div>
 <Footer />
-
-<CountdownTimer />
 </div>
 
     </div>

@@ -11,14 +11,14 @@ export const dataForGiftHome = [
     {
         id:2,
         image:'GiftcardTwo',
-        name: "Название массажа",
+        name: "Подарочная карта на 3 сеанса массажа",
              
     },
     
     {
         id:3,
         image:'GiftcardThree',
-        name: "Название массажа",
+        name: "Подарочная карта на 5 сеансов массажа",
                
     }
 ]

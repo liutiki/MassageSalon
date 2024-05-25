@@ -5,6 +5,7 @@
     background-color:transparent;
     transition: all 0.8s ease; 
     padding:20px;
+    text-align: center;
       }
 
       .card:hover {
@@ -13,17 +14,11 @@
         background-color: #ffffff;
       }
   
-  .card a {
-    text-decoration: none
-  }
-  
-  .content {
-    padding: 1.1rem;
-  }
+
+
   
   .image {
-    background-image: url('https://img.freepik.com/free-photo/organic-detox-salt-dried-lavender-leaves_23-2148791485.jpg?t=st=1711618341~exp=1711621941~hmac=1b40542db147a6311bf507d44ae33124b38dbb42ab4334a13ea8ed522938bbdb&w=1380');
-    background-repeat: no-repeat;
+    
     background-size: cover;
     width: 100%;
     height: 250px;
@@ -32,22 +27,20 @@
   }
     
   .title {
+    font-family: "Philosopher", sans-serif;
     color: #BB9CC0;
-    font-size: 1.125rem;
-    line-height: 1.75rem;
+    font-size: 22px;
+    line-height: 21px;
     font-weight: 600;
   }
   
  
   
   .action {
-    display: inline-flex;
-    margin-top: 1rem;
-    color: #ffffff;
+    color:#908787;
     font-size:17px;
     font-weight: 400;
-    align-items: center;
-    background-color: #bb9cc08f;
+    background-color: transparent;
     padding: 4px;
     border-radius: 10px;
     border:none;
@@ -69,4 +62,31 @@
     flex-wrap: wrap;
   }
 
+.price-back{
+  font-size: 16px;
+  color:white;
+  font-family: "Philosopher", sans-serif;
+  background-color:#da9ee18b;
+  height:5vh;
+  border-radius: 10px;
+  text-align: center;
+  padding:5px;
+}
 
+.price-back:hover{
+  background-color:#be89c6d0;
+}
+
+.price-two{
+  color:white;
+  font-family: "Philosopher", sans-serif;
+  background-color:#3491267a;
+  height:5vh;
+  border-radius: 10px;
+  text-align: center;
+  padding:5px;
+}
+
+.price-two:hover{
+  background-color:#349126c6;
+}

@@ -92,16 +92,20 @@ margin-right: 10%;
     align-items: center;
     margin:13px;
     margin-top: 5%;
+    text-align: center;
 }
 
-
-.title {
-    margin-top: 20px;
-    color: #BFACE2;
-    font-size:22px;
-    font-weight: 600;
-    font-family: "Philosopher", sans-serif;
-  }
+.actionknew{
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
+  color: #ffffff;
+  background-color: #713f83d0;
+  padding: 4px;
+  border-radius: 10px;
+  border:none;
+  width:180px;
+  font-size:19px;
+}
 
   .action {
     font-family: "Roboto", sans-serif;
@@ -130,10 +134,10 @@ margin-right: 10%;
   .description{
     color:#A9A9A9;
     max-width:400px;
-    height:14vh;
+    height:16vh;
     align-items: center;
     font-family: "Philosopher", sans-serif;
-
+font-size: 16px;
   }
 
   .horizontal-line {
@@ -151,7 +155,7 @@ justify-content: center;
 }
 
 .gift-container{
-  background-color: #a9a9a963;
+  background-color: #a9a9a92d;
 }
 
 .giftCard{
@@ -174,27 +178,59 @@ justify-content: center;
          }
 
 .button-gift{
-  font-family: "Roboto", sans-serif;
+  font-family: "Philosopher", sans-serif;
   margin-top: 10px;
   color: #ffffff;
   font-size:19px;
-  background-color: #bb9cc08f;
+  background-color: #b87dc18f;
   padding: 4px;
   border-radius: 10px;
   border:none;
   width:130px;
+  border:1px solid black;
 }
+
+.button-gift:hover{
+  background-color: #08ce757a;
+
+}
+
+.title {
+  text-align: center;
+  margin-top: 30px;
+  color: #BFACE2;
+  font-size:25px;
+  font-weight: 300;
+  font-family: "Philosopher", sans-serif;
+
+}
+
 
 
 @media all and (max-width: 500px) {
 
+  .description{
+    color:#A9A9A9;
+    max-width:400px;
+    height:18vh;
+    align-items: center;
+    font-family: "Philosopher", sans-serif;
+font-size: 16px;
+max-width: 270px;
+  }
+
+  .title {
+     margin-top: 23px;
+    font-size:19px;
+    margin-bottom: 5px;
+      }
 
 .sevice-position{
   flex-direction: column;
 }
 
 .home-page-image{
-  width:250px;
+  width:230px;
   border-radius: 30px;
  }
 

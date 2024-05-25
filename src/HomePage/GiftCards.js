@@ -24,8 +24,9 @@ const GiftCards = () =>{
             </div>
         <div className="gift">
                 {dataForGiftHome.map((item) => {
-                const { image, name, description } = item;
+                const { image, name } = item;
                 return (
+                   
                     
                    <div className="giftCard">
                         <img className='lavanda' src={`./${image}.png`} alt="massagephoto" />
@@ -33,6 +34,9 @@ const GiftCards = () =>{
                         <button onClick={handleGiftCardClick} className="button-gift">Выбрать</button>
                     </div>
                  
+
+             
+           
                                     );
                     })}
                     </div>
