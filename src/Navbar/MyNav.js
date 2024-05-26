@@ -33,9 +33,9 @@ function MyNav() {
           <Nav className="me-auto">
             <Nav.Link href="/">Главная</Nav.Link>
               <Nav.Link as={Link} to="/AboutSalon">О мастере</Nav.Link>
-            <Nav.Link href="/CardPrice">Цены</Nav.Link>
-            <Nav.Link href="/FirstPage">SPA программы</Nav.Link>
-            <Nav.Link href="/Contacts">Контакты</Nav.Link>
+            <Nav.Link as={Link} to="/CardPrice">Цены</Nav.Link>
+            <Nav.Link as={Link} to="/FirstPage">SPA программы</Nav.Link>
+            <Nav.Link as={Link} to="/Contacts">Контакты</Nav.Link>
             </Nav>
         </Navbar.Collapse>
       </Container>
