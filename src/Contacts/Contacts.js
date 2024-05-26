@@ -164,9 +164,7 @@ function Contacts(){
 
 
     </ContactPosition>
-
-   
-   
+  
 
 <div>
 <Footer />

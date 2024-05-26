@@ -7,6 +7,8 @@ import CarouselTwo from "../CardPrice/CarouselTwo";
 import ButtonAll from "./ButtonAll";
 import Footer from "../Footer/Footer";
 import gsap from 'gsap';
+import CountdownTimer from "../Countdown/CountdownTimer";
+
 
 
 
@@ -57,6 +59,7 @@ return(<div className="background">
 </div>
 
 
+<CountdownTimer  targetDate="2022-12-31T23:59:59" />
 
 
 
