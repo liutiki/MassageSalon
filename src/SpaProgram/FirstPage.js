@@ -7,7 +7,7 @@ import CarouselTwo from "../CardPrice/CarouselTwo";
 import ButtonAll from "./ButtonAll";
 import Footer from "../Footer/Footer";
 import gsap from 'gsap';
-import CountdownTimer from "../Countdown/CountdownTimer";
+
 
 
 const FirstPage = () => {
@@ -57,7 +57,7 @@ return(<div className="background">
 </div>
 
 
-<CountdownTimer targetDate="2024-05-28T23:59:59" />
+
 
 
 <div className="spa-btn">
