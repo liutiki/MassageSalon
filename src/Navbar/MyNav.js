@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import './Navbar.css';
-
+import { Link } from 'react-router-dom';
 
 
 
@@ -31,11 +31,11 @@ function MyNav() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/">Главная</Nav.Link>
-            <Nav.Link href="/AboutSalon">О мастере</Nav.Link>
-            <Nav.Link href="/CardPrice">Цены</Nav.Link>
-            <Nav.Link href="/FirstPage">SPA программы</Nav.Link>
-            <Nav.Link href="/Contacts">Контакты</Nav.Link>
+            <Nav.Link as={Link} to="/">Главная</Nav.Link>
+            <Nav.Link as={Link} to="/AboutSalon">О мастере</Nav.Link>
+            <Nav.Link as={Link} to="/CardPrice">Цены</Nav.Link>
+            <Nav.Link as={Link} to="/FirstPage">SPA программы</Nav.Link>
+            <Nav.Link as={Link} to="/Contacts">Контакты</Nav.Link>
             </Nav>
         </Navbar.Collapse>
       </Container>
