@@ -2,14 +2,14 @@ import ProgramOne from './IMGProgram/ProgramOne.jpg';
 import ProgramTwo from './IMGProgram/ProgramTwo.jpg';
 import  bearOne from './IMGProgram/bearOne.jpg';
 import  bearTwo from './IMGProgram/bearTwo.jpg';
-import taiSpa from './IMGProgram/taiSpa.jpg';
+import TaiSpa from './IMGProgram/TaiSpa.jpg';
 import taiSpaTwo from './IMGProgram/taiSpaTwo.jpg';
 import spaForGirl from './IMGProgram/spaForGirl.jpg';
 import spaForGirlTwo from './IMGProgram/spaForGirlTwo.jpg';
-import SpaDateOne from './IMGProgram/SpaDateOne (1).jpg';
+import SpaDateOne from './IMGProgram/SpaDateOne.jpg';
 import SpaDateTwo from './IMGProgram/SpaDateTwo.jpg';
-import SpaProgram from './IMGProgram/SpaProgram (1).jpg';
-import SpaProgramTwo from './IMGProgram/SpaProgramTwo (1).jpg';
+import SpaProgramSault from './IMGProgram/SpaProgramSault.jpg';
+import SpaProgramFive from './IMGProgram/SpaProgramFive.jpg';
 
 
 
@@ -49,7 +49,7 @@ export const dataSpaProgram = [
       descriptionfour:  `4. Финишный уход Молочной росой «Юдзу и свежая мята»`,
       price: 'Стоимость: 4900 рублей' ,
   
-      image: [  taiSpaTwo, taiSpa ]
+      image: [  taiSpaTwo, TaiSpa ]
   
       
     },
@@ -87,7 +87,7 @@ export const dataSpaProgram = [
   
       price: 'Стоимость: 1900 рублей' ,
   
-      image: [ SpaProgramTwo, SpaProgram]
+      image: [ SpaProgramSault, SpaProgramFive]
   
   
       

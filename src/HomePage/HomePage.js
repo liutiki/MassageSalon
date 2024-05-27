@@ -124,8 +124,8 @@ height:40px;
                         <img className='home-page-image' src={`./${image}.jpg`} alt="giftcards" />
                         <p className="title">{name}</p>
                         <p className="description">{description}</p>
-                        <button className="actionknew">Узнать подробнее</button>
-                        <button className="callToAction">Записаться</button>
+                      
+                        <button className="callToAction" onClick={() => window.open('https://t.me/JuliaKhakimova', '_blank')}>Записаться</button>
                         </div>
                   
                 );

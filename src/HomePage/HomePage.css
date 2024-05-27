@@ -95,20 +95,10 @@ margin-right: 10%;
     text-align: center;
 }
 
-.actionknew{
-  font-family: "Roboto", sans-serif;
-  margin-top: 10px;
-  color: #ffffff;
-  background-color: #713f83d0;
-  padding: 4px;
-  border-radius: 10px;
-  border:none;
-  width:180px;
-  font-size:19px;
-}
+
 
   .action {
-    font-family: "Roboto", sans-serif;
+    font-family: "Philosopher", sans-serif;
     margin-top: 10px;
     color: #ffffff;
     font-size:22px;
@@ -120,7 +110,7 @@ margin-right: 10%;
      }
 
   .callToAction{
-    font-family: "Roboto", sans-serif;
+    font-family: "Philosopher", sans-serif;
     margin-top: 10px;
     color: #ffffff;
     background-color: #C6EBC5;
@@ -129,6 +119,10 @@ margin-right: 10%;
     border:none;
     width:180px;
     font-size:19px;
+  }
+
+  .callToAction:hover{
+    background-color: #81eb7d;
   }
 
   .description{

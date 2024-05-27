@@ -59,7 +59,7 @@ return(<div className="background">
 </div>
 
 
-<CountdownTimer  targetDate="2022-12-31T23:59:59" />
+<CountdownTimer  targetDate="2024-12-31T23:59:59" />
 
 
 
