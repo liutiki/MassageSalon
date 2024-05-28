@@ -2,7 +2,7 @@ import ProgramOne from './IMGProgram/ProgramOne.jpg';
 import ProgramTwo from './IMGProgram/ProgramTwo.jpg';
 import  bearOne from './IMGProgram/bearOne.jpg';
 import  bearTwo from './IMGProgram/bearTwo.jpg';
-import TaiSpa from './IMGProgram/TaiSpa.jpg';
+
 import taiSpaTwo from './IMGProgram/taiSpaTwo.jpg';
 import spaForGirl from './IMGProgram/spaForGirl.jpg';
 import spaForGirlTwo from './IMGProgram/spaForGirlTwo.jpg';
@@ -50,7 +50,7 @@ export const dataSpaProgram = [
       descriptionfour:  `4. Финишный уход Молочной росой «Юдзу и свежая мята»`,
       price: 'Стоимость: 4900 рублей' ,
   
-      image: [  taiSpaTwo, TaiSpa ]
+      image: [  taiSpaTwo ]
   
       
     },
