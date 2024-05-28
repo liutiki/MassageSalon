@@ -31,8 +31,13 @@ function MyNav() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
+<<<<<<< HEAD
             <Nav.Link as={Link} to="/">Главная</Nav.Link>
             <Nav.Link as={Link} to="/AboutSalon">О мастере</Nav.Link>
+=======
+            <Nav.Link href="/">Главная</Nav.Link>
+              <Nav.Link as={Link} to="/AboutSalon">О мастере</Nav.Link>
+>>>>>>> 0a4f7a13966b36611f56b0ecf0f40f5fa7894206
             <Nav.Link as={Link} to="/CardPrice">Цены</Nav.Link>
             <Nav.Link as={Link} to="/FirstPage">SPA программы</Nav.Link>
             <Nav.Link as={Link} to="/Contacts">Контакты</Nav.Link>
